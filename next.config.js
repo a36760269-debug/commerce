@@ -17,6 +17,7 @@ const nextConfig = {
     defaultLocale: 'en',
     localeDetection: false,
   },
+  output: 'standalone',
   async headers() {
     return [
       {
